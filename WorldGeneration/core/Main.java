@@ -154,7 +154,7 @@ public class Main {
 
         String savedInput = getSaved.replaceAll("\\d", "");
         // savedInput = savedInput.replaceAll("N", "");
-        savedInput = savedInput.substring(1);
+        savedInput = savedInput.substring(2);
         savedInput = savedInput.replaceAll(":Q", "");
         board.move(savedInput);
     }
